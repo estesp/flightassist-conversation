@@ -1,0 +1,17 @@
+{
+    "name": "FlightAssistConversation",
+    "version": "0.0.1",
+    "description": "FlightAssist Watson conversation microservice",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "4.12.x",
+        "express-session": "*",
+        "body-parser": "*",
+        "watson-developer-cloud": "*",
+		"compression": "*",
+		"fs": "*"
+    },
+    "repository": {}
+}
